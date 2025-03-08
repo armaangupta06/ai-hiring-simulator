@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Core",
+    "description": "The Core archetype focuses on building a team with exceptional individual talent. This approach prioritizes high-quality individual performers who can independently drive projects and decisions. It is ideal for a startup phase where expertise and personal contribution are crucial.",
+    "weightings": {
+      "individual_quality": 0.7,
+      "team_synergy": 0.2,
+      "team_diversity": 0.1
+    }
+  },
+  {
+    "name": "Synergy",
+    "description": "The Synergy archetype emphasizes building a cohesive team that works well together. This approach values interpersonal compatibility and collaborative skills, fostering a harmonious work environment that can efficiently tackle complex problems.",
+    "weightings": {
+      "individual_quality": 0.3,
+      "team_synergy": 0.5,
+      "team_diversity": 0.2
+    }
+  },
+  {
+    "name": "Diversity",
+    "description": "The Diversity archetype aims to create a team with a wide range of skills, perspectives, and experiences. This approach seeks to leverage diverse backgrounds to drive innovation and creative problem-solving, essential for a fintech startup tackling multifaceted challenges.",
+    "weightings": {
+      "individual_quality": 0.3,
+      "team_synergy": 0.2,
+      "team_diversity": 0.5
+    }
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "technical_skills": {
+    "weights": {
+      "Python": 10,
+      "Machine Learning": 8,
+      "Data Analysis": 7,
+      "SQL": 6,
+      "JavaScript": 4,
+      "AWS": 5
+    },
+    "bonus_skills": {
+      "Deep Learning": 3,
+      "NLP": 3,
+      "Computer Vision": 2
+    },
+    "max_score": 40
+  },
+  "education": {
+    "degree_levels": {
+      "PhD": 10,
+      "Master's Degree": 8,
+      "Bachelor's Degree": 6,
+      "Associate's Degree": 3,
+      "High School": 1
+    },
+    "field_relevance": {
+      "Computer Science": 1.0,
+      "Data Science": 1.0,
+      "Mathematics": 0.9,
+      "Statistics": 0.9,
+      "Engineering": 0.8,
+      "Physics": 0.7,
+      "Other": 0.4
+    },
+    "gpa_scores": {
+      "GPA 4.0": 5,
+      "GPA 3.5-3.9": 4,
+      "GPA 3.0-3.4": 3,
+      "GPA 2.5-2.9": 2,
+      "GPA 2.0-2.4": 1
+    },
+    "school_quality": {
+      "top25_bonus": 5,
+      "top50_bonus": 3,
+      "school_tier_scores": {
+        "Tier 1": 5,
+        "Tier 2": 3,
+        "Tier 3": 1
+      }
+    },
+    "recency_factor": {
+      "within_5_years": 1.0,
+      "within_10_years": 0.9,
+      "older": 0.8
+    },
+    "max_score": 30
+  },
+  "soft_skills": {
+    "leadership_terms": {
+      "Lead": 5,
+      "Senior": 4,
+      "Manager": 5,
+      "Director": 6,
+      "Head": 5,
+      "Chief": 6,
+      "Principal": 5,
+      "Architect": 4,
+      "Supervisor": 3,
+      "Team Lead": 4,
+      "Coordinator": 3
+    },
+    "max_score": 20
+  }
+}
