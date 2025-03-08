@@ -1,0 +1,39 @@
+{
+  "name": "Clever Monkey",
+  "email": "clever-monkey@example.com",
+  "phone": 5582981474204,
+  "location": "Maceió",
+  "submitted_at": "2025-01-28 09:02:16.000000",
+  "work_availability": "['full-time', 'part-time']",
+  "work_experiences": "[{'company': 'StarLab Digital Ventures', 'roleName': 'Full Stack Developer'}, {'company': 'OrbitalLife', 'roleName': 'Project Manager'}, {'company': 'Carrot Hosting', 'roleName': 'Full Stack Developer'}, {'company': 'Bitbay Solutions', 'roleName': 'Full Stack Developer'}, {'company': 'Federal Institute of Science, Education & Technology - Alagoas', 'roleName': 'Project Manager'}, {'company': 'Usina Caeté', 'roleName': 'Scientist'}, {'company': 'Cyberia', 'roleName': 'System Administrator'}]",
+  "skills": [
+    "Data Analysis",
+    "Docker",
+    "Microservices"
+  ],
+  "annual_salary_expectation.full-time": "$117548",
+  "education.highest_level": "Bachelor's Degree",
+  "education.degrees": "[{'degree': \"Bachelor's Degree\", 'subject': 'Computer Science', 'school': 'International Institutions', 'gpa': 'GPA 3.0-3.4', 'startDate': '2023', 'endDate': '2027', 'originalSchool': 'Faculdade Descomplica', 'isTop50': False}, {'degree': \"Bachelor's Degree\", 'subject': 'Law', 'school': 'International Institutions', 'gpa': 'GPA 3.0-3.4', 'startDate': '2015', 'endDate': '2023', 'originalSchool': 'Federal University of Alagoas', 'isTop50': False}, {'degree': \"Bachelor's Degree\", 'subject': 'Chemistry', 'school': 'International Institutions', 'gpa': 'GPA 3.0-3.4', 'startDate': '2011', 'endDate': '2014', 'originalSchool': 'Federal Institute of Alagoas', 'isTop50': False}]",
+  "work_experience_text": "Full Stack Developer at StarLab Digital Ventures; Project Manager at OrbitalLife; Full Stack Developer at Carrot Hosting; Full Stack Developer at Bitbay Solutions; Project Manager at Federal Institute of Science, Education & Technology - Alagoas; Scientist at Usina Caeté; System Administrator at Cyberia",
+  "education_text": "Highest level: Bachelor's Degree; Bachelor's Degree in Computer Science from Faculdade Descomplica with GPA 3.0-3.4 (2023-2027); Bachelor's Degree in Law from Federal University of Alagoas with GPA 3.0-3.4 (2015-2023); Bachelor's Degree in Chemistry from Federal Institute of Alagoas with GPA 3.0-3.4 (2011-2014)",
+  "skills_text": "Data Analysis; Docker; Microservices",
+  "unified_profile": "Name: Clever Monkey\nLocation: Maceió\nSkills: Data Analysis; Docker; Microservices\nWork Experience: Full Stack Developer at StarLab Digital Ventures; Project Manager at OrbitalLife; Full Stack Developer at Carrot Hosting; Full Stack Developer at Bitbay Solutions; Project Manager at Federal Institute of Science, Education & Technology - Alagoas; Scientist at Usina Caeté; System Administrator at Cyberia\nEducation: Highest level: Bachelor's Degree; Bachelor's Degree in Computer Science from Faculdade Descomplica with GPA 3.0-3.4 (2023-2027); Bachelor's Degree in Law from Federal University of Alagoas with GPA 3.0-3.4 (2015-2023); Bachelor's Degree in Chemistry from Federal Institute of Alagoas with GPA 3.0-3.4 (2011-2014)",
+  "technical_score": 0,
+  "education_score": 0.24,
+  "soft_skills_score": 0.375,
+  "partial_overall_score": 0.21000000000000002,
+  "normalized_overall_score": 0.30255006909370424,
+  "z_normalized_technical": 74.58821174267784,
+  "z_normalized_education": 80.14214074237776,
+  "z_normalized_soft_skills": 92.38305785318892,
+  "culture_fit_score": 0.4627503454685211,
+  "z_normalized_score": 89.39170658967974,
+  "z_normalized_culture_fit": 86.093017578125,
+  "ratings": {
+    "overall": 89,
+    "technical": 75,
+    "education": 80,
+    "softSkills": 92,
+    "cultureFit": 86
+  }
+}
