@@ -508,7 +508,7 @@ if __name__ == "__main__":
     # Example usage
     optimizer = TeamOptimizer(
         candidates_file="data/output/scored_candidates_rubric.csv",
-        archetypes_file="archetypes.json",
+        archetypes_file="data/output/team_archetypes.json",
         team_size=5,
         population_size=975,
         generations=125

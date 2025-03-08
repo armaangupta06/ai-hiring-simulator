@@ -6,7 +6,7 @@ An end-to-end AI hiring simulator that leverages state-of-the-art large language
 
 This system processes candidate profiles from a JSON file, evaluates candidates using LLMs, and provides an interactive dashboard for hiring managers to create and optimize teams.
 
-### Key Features (Planned)
+### Key Features
 
 - Data processing and normalization of candidate profiles
 - Embedding generation using Sentence-BERT
@@ -57,33 +57,18 @@ This pipeline will:
 3. Score candidates against the rubric
 4. Save the results for further analysis
 
-## Project Structure
 
-```
-ai-hiring-simulator/
-├── README.md
-├── requirements.txt
-├── .env                   # Environment variables (API keys, etc.)
-├── main.py                # Main entry point for the application
-├── src/                   # Source code
-│   ├── scoring/           # Candidate scoring modules
-│   │   ├── rubric_generator.py  # Generates scoring rubrics from startup descriptions
-│   │   ├── rubric_scorer.py     # Scores candidates based on rubrics
-│   │   └── candidate_rater.py   # Rates candidates using LLMs
-│   ├── processing/        # Data processing modules
-│   │   ├── data_processor.py    # Handles parsing and normalization
-│   │   ├── embedding_generator.py  # Generates embeddings for candidates
-│   │   └── process_candidates.py   # Data processing pipeline
-│   └── matching/          # Candidate matching modules
-│       └── startup_matcher.py    # Matches candidates to startups
-├── tests/                 # Test suite
-│   ├── test_rubric_scoring.py    # Tests for rubric scoring
-│   └── test_data/         # Test data files
-└── data/                  # Data directory
-    ├── raw/               # Raw input data
-    ├── processed/         # Processed data
-    └── output/            # Output files (rubrics, scores, etc.)
-```
+## Project Organization
+
+The project has been organized into the following key directories:
+
+- **src/**: Contains the core application logic including scoring, processing, matching, and optimization modules
+- **scripts/**: Utility scripts for running the application
+  - `run_api.py`: Script to run the FastAPI backend
+  - `run_dev.sh`: Development environment script that starts both backend and frontend
+- **tests/**: Test suite for the application
+  - Contains API tests, default candidate tests, rubric scoring tests, and visualization utilities
+- **data/**: Directory for storing raw data, processed data, and output files
 
 ## Usage
 
@@ -101,12 +86,19 @@ python main.py score --rubric data/output/rubric.json --candidates data/processe
 
 # Run tests
 python -m pytest tests/
+
+# Run the development environment (starts both backend and frontend)
+bash scripts/run_dev.sh
+
+# Visualize the synergy matrix
+python tests/visualize_synergy_matrix.py --input data/processed/synergy_matrix.npy
 ```
 
-## Next Steps
+## Implemented Features
 
-- Enhance the rubric generator with more detailed prompts
-- Implement team synergy calculation
-- Build genetic algorithm for team optimization
-- Develop interactive frontend dashboard with Next.js, React, and TailwindCSS
-- Create FastAPI backend for serving the model results
+- **Data Processing Pipeline**: Complete pipeline for processing candidate profiles, generating embeddings, and calculating synergy matrices
+- **LLM-Based Scoring**: Sophisticated scoring system using LLMs to evaluate candidates on technical skills, education, and soft skills
+- **Team Optimization**: Genetic algorithm implementation for optimizing team composition based on different archetypes
+- **Interactive Frontend**: Next.js, React, and TailwindCSS frontend with interactive team building and visualization features
+- **FastAPI Backend**: Robust API endpoints for candidate scoring, archetype generation, and team optimization
+- **Visualization Tools**: Utilities for visualizing synergy matrices and team compositions
